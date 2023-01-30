@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Montserrat&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik+Bubbles&family=Seymour+One&family=Ubuntu:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap");
+body {
+  background-color: rgb(114, 60, 164);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: white;
+  color: black;
+  height: 97vh;
+  width: 34vw;
+  border-radius: 14px;
+}
+.colockimg {
+  display: flex;
+  justify-content: center;
+}
+
+.alarmimg {
+  width: 11vw;
+  height: 32vh;
+}
+
+#current {
+  margin-top: 250px;
+  margin-left: -159px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+}
+form {
+  display: flex;
+  /* font-family: 'Roboto Mono', monospace; */
+  margin-top: 10px;
+  position: relative;
+  bottom: -100px;
+}
+#hours {
+  font-family: "Ubuntu", sans-serif;
+  width: 12vw;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#minutes {
+  width: 12vw;
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#AMPM {
+  font-family: "Ubuntu", sans-serif;
+  width: 12vw;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+#set {
+  border-radius: 7px;
+  width: 32vw;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(166, 93, 234);
+  height: 10vh;
+  font-size: 3rem;
+}
+
+#clear {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#calarm {
+  display: none;
+  border-radius: 7px;
+  width: 32vw;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(166, 93, 234);
+  height: 10vh;
+  font-size: 3rem;
+}
+#notext{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -50px;
+  display: none;
+}
+h2{
+  font-family: "Ubuntu", sans-serif;
+  color: red;
+  font: weight 10px;
+  font-size: 2rem;
+}
